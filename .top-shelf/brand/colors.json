@@ -1,0 +1,23 @@
+{
+  "version": "0.1.0",
+  "palette": {
+    "ts_black": "#0B0F14",
+    "charcoal": "#111827",
+    "slate": "#334155",
+    "mist": "#E5E7EB",
+    "accent_primary": "#2563EB",
+    "accent_success": "#16A34A",
+    "accent_warning": "#F59E0B",
+    "accent_danger": "#DC2626"
+  },
+  "semantic": {
+    "bg": "ts_black",
+    "surface": "charcoal",
+    "text": "mist",
+    "muted": "slate",
+    "primary": "accent_primary",
+    "success": "accent_success",
+    "warning": "accent_warning",
+    "danger": "accent_danger"
+  }
+}
