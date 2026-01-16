@@ -1,17 +1,6 @@
 {
-  "typescript": {
-    "strict": true
-  },
-  "lint": {
-    "warningsAllowed": 0
-  },
-  "bundle": {
-    "maxFirstLoadJSKb": 200
-  },
-  "security": {
-    "vulnerabilities": {
-      "critical": 0,
-      "high": 0
-    }
-  }
+  "typescript": { "strict": true },
+  "lint": { "warningsAllowed": 0 },
+  "bundle": { "maxFirstLoadJSKb": 200 },
+  "security": { "vulnerabilities": { "critical": 0, "high": 0 } }
 }

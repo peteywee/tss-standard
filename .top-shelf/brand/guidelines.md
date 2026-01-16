@@ -1,19 +1,10 @@
-# Top Shelf Service Brand Guidelines (TSSAS)
+# Top Shelf Service Architecture Standard (TSSAS) — Brand
 
-This folder is the canonical source of brand tokens and documentation for Top Shelf Service projects.
+This folder is the canonical source of Top Shelf Service brand tokens used by all projects.
 
-## Brand Principles
-- Consistency: all UI uses the same tokens.
-- Accessibility: contrast and readable typography are required.
-- Simplicity: minimal components, predictable patterns.
+Rules:
+- Do not hardcode colors in components.
+- Map tokens to CSS variables and use semantic names.
+- Typography must remain consistent across projects.
 
-## Token Usage Rules
-- Colors are defined in `.top-shelf/brand/colors.json`.
-- Typography is defined in `.top-shelf/brand/typography.json`.
-- Projects should map these tokens into Tailwind via CSS variables.
-
-## Project Expectations
-- Do not hardcode hex colors in components.
-- Use token names (semantic) rather than raw values.
-
-Status: Initial v0 (tokens are placeholders until you drop the official palette).
+Status: v0.1 (tokens are placeholders until official palette is provided).
